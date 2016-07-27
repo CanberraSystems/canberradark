@@ -1,6 +1,10 @@
-
+// Sidebar second changes and overrides
 
 .region-sidebar-second {
+
+.home-view-feeds {
+padding: 1px;
+}
 
 h2 {
   margin: 0px;
@@ -18,7 +22,6 @@ margin-bottom: 3px;
 border-radius: 4px;
 }
 
-
 .home-view-feeds h2 {
 visibility: hidden;
 font-size: 1px;
@@ -28,19 +31,16 @@ color: #fff;
 border-bottom: 1px solid transparent;
 padding: 0px;
 margin-bottom: 0px;
-
 }
+
 .home-view-feeds h2 a {
 display: block;
 color: #fff;
 }
 
-
-
 .home-view-feeds h2 {
 min-height: 1px;
 } 
-
 
 @media (max-width: 800px) {
   .home-view-feeds h2 {

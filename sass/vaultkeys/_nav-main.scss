@@ -1,3 +1,5 @@
+// Navbar changes and overrides
+
 .navbar-inverse {
 @include black-grade-trs;
 border-color: transparent;
@@ -19,11 +21,6 @@ border-color: transparent;
   padding: 0px 0px 0px 0px;
   opacity: 0.5;
   filter: alpha(opacity=50);
-}
-
-.navbar-nav .glyphicon-menu-hamburger {
-// float: right;
-// padding-top: 3px;
 }
 
 .navbar-home a {
@@ -53,9 +50,7 @@ border-color: transparent;
 
 }
 }
-.navbar-btn {
-//    margin-right: 10px;
-}
+
 .navbar-text {
     float: left;
     margin-right: 8px;
@@ -68,7 +63,6 @@ border-color: transparent;
     padding: 7px 15px;
     margin-top: 5px;
 }
-
 
 @media (min-width: 768px) {
 .navbar-right {
