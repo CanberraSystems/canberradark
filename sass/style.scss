@@ -55,13 +55,13 @@
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
 
+// Canberra Systems Dark additions and overrides
 @import "overrides";
-
 @import "vaultkeys/mixins";
 @import "vaultkeys/core";
-@import "vaultkeys/nav-alts";
-@import "vaultkeys/home-views";
+@import "vaultkeys/nav-main";
 @import "vaultkeys/home-page";
-@import "vaultkeys/sidebar-first";
-@import "vaultkeys/sidebar-second";
+@import "vaultkeys/sidebar-first-main";
+@import "vaultkeys/sidebar-second-main";
 @import "vaultkeys/development-page";
+@import "vaultkeys/btn-main";

@@ -1,5 +1,10 @@
+// Homepage views additions
 
 .view-frontpage {
+
+.home-view-feeds {
+padding: 1px;
+}
 
 h2 {
   margin: 0px;
@@ -9,41 +14,10 @@ h2 {
 .home-view-feeds h2 {
 visibility: hidden;
 font-size: 1px;
-color: #fff;
-// font-weight: bold;
-@include black-grade-trs;
-border-bottom: 1px solid #fff;
+min-height: 0;
 padding: 0px;
 margin-bottom: 0px;
-}
-.home-view-feeds h2 a {
-display: block;
-color: #fff;
-}
-
-.home-view-feeds h2 {
-min-height: 1px;
-} 
-
-
-@media (max-width: 800px) {
-  .home-view-feeds h2 {
-  min-height: 1px;
-  }
-}
-@media (max-width: 760px) {
-  .home-view-feeds h2 {
-  padding: 0px;
-  min-height: 1px;
-  max-width: 350px;
-  }
-}
-@media (max-width: 460px) {
-  .home-view-feeds h2 {
-  padding: 0px;
-  min-height: 1px;
-  font-size: 1px;
-  }
+margin-top: -1px;
 }
 
 .pagination > li > a, .pagination > li > span {
@@ -72,5 +46,6 @@ min-height: 1px;
   font-size: 10px;
   }
 }
+
 
 }
